@@ -1,0 +1,444 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+//GEMEENSCHAPPELIJK
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: #999999;
+  font-size: 14px;
+}
+.parallax{
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.streep1, .streep2, .streep, .streep3, .streep4, .streep5{
+  height: 5px;
+  width: 50px;
+}
+.streep{
+  margin-left: 125px;
+}
+.streep1{
+  margin-left: 75%;
+}
+.streep2{
+  margin-left: 140px;
+}
+.streep3{
+  margin-left: 150px;
+}
+.streep4{
+  margin-left: 230px;
+}
+.streep5{
+  background: #999999;
+  margin-left: 150px;
+}
+//NAV BAR
+.navbar-brand, #brand{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  :nth-child(2){
+    background: linear-gradient(to right, #eee 10%, #626262 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  :last-child{
+    background: linear-gradient(to right, #626262 10%, #eee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+//SECTION OMSLAG
+#omslag{
+  background-image: url("../img/omslag.jpg");
+  div{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    h2 {
+      font-size: 48px;
+      font-weight: 800;
+    }
+    button{
+      height: 60px;
+      padding: 0 30px;
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+}
+#buy{
+  color: #777777;
+}
+#learn{
+  background: #555555;
+}
+//SECTION KWALITEITEN
+#kwaliteiten{
+  article{
+    position: relative;
+    background: #f5f5f5;
+    margin-top: 60px;
+    max-width: 370px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    h2{
+      font-family: "Noto Sans";
+      font-size: 18px;
+      font-weight: 700;
+      color: #777777;
+    }
+    p{
+      margin-top: 15px;
+    }
+  }
+}
+.bol{
+  height: 70px;
+  width: 70px;
+  background: #555555;
+  border: 5px solid #fff;
+  top: -35px;
+  left: 25px;
+}
+//SECTION WHY
+h2{
+  font-size: 24px;
+  font-weight: 700;
+}
+h3{
+  font-family: "Noto Sans";
+  font-size: 18px;
+  font-weight: 700;
+}
+#why{
+  background-image: url("../img/parralax2.jpg");
+  div{
+    max-width: 675px;
+    background: #f5f5f5;
+    article{
+      max-width: 250px;
+    }
+  }
+}
+//SECTION WHAT
+.logo{
+  height: 20px;
+}
+
+.whatbol{
+  height: 45px;
+  width: 45px;
+  background: #555555;
+}
+
+//SECTION HOW
+#how{
+  background-image: url("../img/parralax3.jpg");
+}
+//SECTION TEAM
+.kader{
+  height: 180px;
+  width: 155px;
+  background: #7a7878;
+  border: 10px solid #e6e6e6;
+  margin-top: -20px;
+  font-size: 100px;
+}
+#team{
+  .vulling{
+    background: #f5f5f5;
+    max-width: 575px;
+  }
+  h3{
+    transform: skew(20deg);
+  }
+  h4{
+    font-size: 12px;
+    font-weight: 500;
+    transform: skew(20deg);
+  }
+}
+.scheefWit{
+  transform: skew(-20deg);
+  max-width: 200px;
+}
+.scheefGrijs {
+  transform: skew(-20deg);
+  background: #e6e6e6;
+  max-width: 200px;
+  margin-top: -15px;
+}
+.links{
+  font-size: 20px;
+
+}
+//SECTION QUALITY
+#computersAchtergrond{
+  background: #fafafa;
+  padding-left: 5%;
+}
+#computerTekst{
+  background: #eeeeee;
+  padding-left: 10%;
+  p{
+    max-width: 420px;
+  }
+}
+
+//SECTION PORTFOLIO
+#tablist{
+  a{
+    background: #f5f5f5;
+    color: #777777;
+  }
+}
+.overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  background: rgba(75,157,220,0.5);
+  transition: .5s ease;
+}
+.overlayContainer:hover .overlay{
+  width: 100%;
+}
+.bolPortfolio{
+  width: 40px;
+  height: 40px;
+}
+//SECTION ENVIRENMONT
+#environment{
+  background-image: url("../img/envirenmont.jpg");
+}
+#environmentContent{
+  background: #313030;
+}
+//BLOG
+.card-img-top{
+  filter: grayscale(100%);
+  transition: filter 0.5s ease-out;
+}
+.card:hover .card-img-top{
+  filter: grayscale(0);
+}
+#viewAll{
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  background: #777777;
+}
+.bol2{
+  height: 130px;
+  width: 130px;
+  background: #7a7878;
+}
+#prevBtnBlog, #nextBtnBlog, #prevBtnManager, #nextBtnManager{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: #555555;
+}
+#prevBtnBlog, #nextBtnBlog{
+  bottom: -81px;
+}
+#nextBtnBlog, #nextBtnManager{
+  left: -400%;
+}
+//MANAGER
+#prevBtnManager, #nextBtnManager{
+  bottom: 5px;
+}
+//PRICE
+#price{
+  ul{
+    >:first-child{
+      background: #b6b6b6 !important;
+      color: #fff;
+    }
+    >:last-child{
+      background: #e6e6e6 !important;
+      color: #777777;
+    }
+    >:last-child, :first-child, span{
+      font-size: 18px;
+      font-weight: 900;
+    }
+    :nth-child(odd) {
+      background: #f5f5f5;
+    }
+    :nth-child(even){
+      background: #fafafa;
+    }
+    span{
+      background: transparent !important;
+    }
+    }
+}
+#price{
+  ul:hover {
+    >:first-child{
+      background: #3baafe !important;
+      color: #fff;
+    }
+    >:last-child{
+      background: #b6b6b6 !important;
+      color: #fff;
+    }
+  }
+}
+//FACTS
+.horizStreep{
+  width: 2px;
+  height: 45px;
+}
+#facts{
+  p{
+    max-width: 60px;
+    span{
+      font-weight: 800;
+      font-size: 24px;
+    }
+  }
+
+}
+//PARTNERS
+#partners{
+  img{
+    transition: transform 1s ease;
+  }
+  img:hover{
+    transform: scale(1.1);
+  }
+}
+//FOOTER
+footer{
+  img{
+    height: 20px;
+  }
+  h2{
+    font-size: 14px;
+    color: #fff;
+  }
+  input{
+    width: 49%;
+  }
+  input, textarea, button{
+    background: #b6b6b6;
+  }
+  button{
+    font-weight: 800;
+    color: #777777;
+  }
+}
+.bolFooter{
+  background: #b6b6b6;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+//MEDIAQUERIES ( css voor groter dan mobiel)
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .streep5{
+    margin-left: 280px;
+  }
+  .scheefWit{
+    margin-left: -300px !important;
+    z-index: 0;
+  }
+  .scheefGrijs {
+    margin-left: -300px !important;
+    z-index: 5;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  //NAVBAR
+  .nav-link{
+    border-bottom: 4px solid #fff;
+  }
+  .nav-link:hover{
+    border-bottom: 4px solid #3baafe;
+  }
+  //OMSLAG
+  #buy{
+    margin-right: 15px;
+  }
+  //KWALITEITEN
+  #kwaliteiten{
+    article{
+      margin-top: 120px;
+      margin-bottom: 85px !important;
+    }
+  }
+  //Quality
+  #computersAchtergrond, #computerTekst{
+    background: none;
+  }
+  #quality{
+    background: linear-gradient(120deg,#fafafa 50%,#eeeeee 50%);
+  }
+  #qualityImage{
+    transition: 1s ease;
+
+  }
+  #quality:hover #qualityImage{
+    transform: scale(1.1);
+  }
+  #nextBtnBlog, #nextBtnManager{
+    left: -495%;
+  }
+  #prevBtnManager, #nextBtnManager{
+    bottom: 25px;
+  }
+  //TEAM EFFECTS
+  .teamContainer{
+    overflow: hidden;
+  }
+  .scheefWit, .scheefGrijs{
+    transition: margin-left .5s ease;
+    transition-delay: 0.5s;
+  }
+  .kader{
+    transition: font-size 0.5s ease;
+  }
+  .teamTekst{
+    opacity: 0;
+    transition: opacity 1s ease;
+    transition-delay: 1s;
+  }
+  .vulling:hover .kader{
+    font-size: 120px;
+  }
+  .vulling:hover .teamTekst{
+    opacity: 1;
+  }
+  .vulling:hover .scheefWit,.vulling:hover .scheefGrijs{
+    margin-left: -10px !important;
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+//EFFECTS
+.bol{
+  transition: transform 1s ease;
+}
+.bolContainer:hover .bol{
+  transform: translate(100%) rotate(360deg);
+}
+

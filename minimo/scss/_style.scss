@@ -1,0 +1,122 @@
+//FONTS
+@font-face {
+  font-family: PlayfairDisplay-Regular;
+  src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: PlayfairDisplay-Regular;
+  src: url(../fonts/PlayfairDisplay-Bold.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url(../fonts/Ubuntu-Light.ttf);
+}
+//BODY
+body{
+  font-family: PlayfairDisplay-Regular;
+  font-size: 14px;
+  color: #626262;
+}
+//NAVBAR
+.navbar-brand{
+  font-size: 30px;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 0.1cm;
+}
+.navbar{
+  background: none !important;
+}
+.nav-item{
+  color: #626262 !important;
+}
+#omslag{
+  margin-bottom: 70px;
+}
+//MAIN
+main{
+  h2{
+    font-family: Ubuntu-Light;
+    font-size: 14px;
+    color: #b4ad9e;
+    margin: 30px 0;
+  }
+  h3{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  article{
+    max-width: 420px;
+    img{
+      margin-top: 135px;
+    }
+    p{
+      max-width: 420px;
+    }
+  }
+  button{
+    width: 160px;
+    height: 60px;
+    background: none;
+    border: 1px solid #000;
+    margin-top: 165px;
+    margin-bottom: 1000px;
+  }
+}
+//SECTION PHOTODIARY
+.comment{
+  background: none;
+  border: none;
+  color: #b4ad9e;
+  margin-top: 75px;
+}
+//SECTION NEWSLETTER
+#newsletter{
+  background: #f0f0f0;
+  margin-top: 125px;
+  height: 290px;
+  div{
+    margin: 0 15px;
+    text-align: center;
+    h2{
+      color: #333333;
+      font-size: 30px;
+      margin-top: 0;
+      margin-bottom: 80px;
+    }
+    input{
+      background: none;
+      border: none;
+      border-bottom: 1px solid #000;
+      width: 100%;
+    }
+  }
+}
+//FOOTER
+footer{
+  background: #f0f0f0;
+  height: 100px;
+}
+//MEDIAQUERIES ( css voor groter dan mobiel)
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .navbar{
+    height: 165px;
+  }
+  .nav-item{
+    margin-left: 100px;
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
